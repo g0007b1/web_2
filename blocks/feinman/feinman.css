@@ -1,0 +1,10 @@
+.feinman {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-size: 867px 637px;
+    background: #F2F2F2 url(../../images/feinman.png) no-repeat left bottom;
+    align-items: center;
+    position: relative;
+    height: 890px;
+}

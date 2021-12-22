@@ -1,0 +1,6 @@
+.cards__item {
+    justify-content: space-between;
+    text-align: center;
+    width: 240px;
+    margin-top: 60px;
+}
