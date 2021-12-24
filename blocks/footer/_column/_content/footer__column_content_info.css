@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .footer__column_content_info {
+        margin-top: 100px;
+    }
+    .footer__column_content_info:hover  .footer__column-links{
+        display: block;
+    }
+    .footer__column_content_social:hover  .footer__column-links{
+        display: block;
+    }
+}

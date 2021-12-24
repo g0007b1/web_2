@@ -1,4 +1,15 @@
 .footer__column-links {
-    display: flex;
     flex-direction: column;
+}
+@media screen and (min-width: 768px){
+    .footer__column-links {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__column-links {
+        position: relative;
+        display: none;
+    }
 }

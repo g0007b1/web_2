@@ -1,9 +1,29 @@
 .footer {
     background: #1f1f1f;
-    display: flex;
-    min-height: 350px;
-    justify-content: center;
-    z-index: 0;
     color: white;
     margin: 0;
 }
+
+@media screen and (min-width: 768px){
+    .footer {
+        justify-content: center;
+        display: flex;
+        min-height: 350px;
+        z-index: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 3;
+        width: 200px;
+        height: 100%;
+        flex-direction: column;
+        display: block;
+        justify-content: center;
+    }
+}
+
