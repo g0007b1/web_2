@@ -40,6 +40,7 @@
 @import "blocks/footer/_column/_content/footer__column_content_social.css";
 @import "blocks/footer/__column-list/footer__column-list.css";
 @import "blocks/footer/__social-icon/footer__social-icon.css";
+@import "blocks/footer/_column/_content/footer__column_content_info.css";
 @import "blocks/logo/_place/logo_place_footer.css";
 @import "blocks/rotation/rotation.css";
 

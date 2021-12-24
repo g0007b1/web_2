@@ -1,9 +1,22 @@
 .footer__columns {
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    margin: 60px 0 40px;
-    position: relative;
     font-size: 18px;
     line-height: 30px;
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+    .footer__columns {
+        width: 90%;
+        justify-content: space-between;
+        margin: 60px 0 40px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__columns {
+        flex-direction: column;
+        position: static;
+        margin: 0;
+        text-align: center;
+    }
 }
